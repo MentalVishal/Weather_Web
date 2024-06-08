@@ -6,7 +6,7 @@ window.addEventListener("load", () => {
       let lat = position.coords.latitude;
 
       const url =
-        `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&` +
+        `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&` +
         `lon=${lon}&appid=${apikey}`;
 
       fetch(url)
